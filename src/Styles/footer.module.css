@@ -1,0 +1,81 @@
+.footer {
+  padding: 5% 7.6vw;
+  text-align: left;
+}
+@media (max-width: 740px) {
+  .footer {
+    padding: 29% 7.6vw 0%;
+    text-align: center;
+  }
+}
+.footer img {
+  margin-top: 19%;
+  display: block;
+}
+@media (max-width: 740px) {
+  .footer img {
+    display: inline-block;
+  }
+}
+.footer p {
+  color: #595f6f;
+  font-size: 1.4rem;
+  margin-top: 5%;
+}
+.rightSide {
+  margin-left: 14vw;
+  margin-top: 22%;
+}
+@media (max-width: 740px) {
+  .rightSide {
+    margin-left: 0%;
+    margin-top: 4%;
+  }
+}
+.footer h6 {
+  margin-top: 24%;
+  font-size: 1.6rem;
+}
+@media (max-width: 740px) {
+  .footer h6 {
+    margin-top: 0%;
+  }
+}
+.contact__icons {
+  margin-top: 7%;
+  padding-left: 0;
+}
+.contact__icons__icon {
+  display: inline-block;
+  list-style: none;
+  padding: 1.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  perspective: 60rem;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+
+  color: white;
+  background-color: #ec1c24;
+}
+.contact__icons__icon:hover {
+  color: #ec1c24;
+  cursor: pointer;
+  transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
+  background-color: rgba(225, 222, 246, 0.7);
+}
+.contact__icons__icon i {
+  font-size: medium;
+}

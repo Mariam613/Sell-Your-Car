@@ -1,0 +1,205 @@
+/* how it works section  */
+.howItWorks {
+  background-color: #323e47;
+  padding: 7.6vw;
+  color: white;
+}
+@media (max-width: 740px) {
+  .howItWorks {
+    padding: 13% 18.6vw 10%;
+  }
+}
+.howItWorksHeader {
+  padding-left: 1vw;
+}
+.howItWorksHeader h4 {
+  font-size: 3.5rem;
+}
+.howItWorksHeader p {
+  font-size: 1.4rem;
+  margin-bottom: 6%;
+}
+/* steps section */
+.steps {
+  margin-left: 1vw;
+}
+.step {
+  margin-bottom: 8%;
+}
+.stepContent {
+  margin: 0.5vw 2vw;
+}
+.step h5 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.step p {
+  font-size: 1.4;
+  font-weight: 400;
+}
+.step img {
+  width: 3.6603221083455346vw;
+  height: 313%;
+}
+/* red section */
+.redSection {
+  background-image: url("/images/Red_Bg.png");
+  background-size: cover;
+  width: 102%;
+}
+.redSectionContent {
+  color: white;
+  padding: 33.1% 0vw;
+  text-align: center;
+}
+@media (max-width: 740px) {
+  .redSectionContent {
+    padding: 18% 0vw;
+  }
+}
+.redSectionContent h5 {
+  font-size: 3rem;
+  margin-top: 3%;
+}
+.redSectionContent p {
+  font-size: 2rem;
+}
+/* start today section */
+.startTodayHeader {
+  text-align: center;
+  margin-top: 9%;
+}
+.startTodayHeader h3 {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+.startTodayHeader p {
+  font-size: 1.8rem;
+  color: #595f6f;
+  font-weight: 400;
+}
+.startTodayBody {
+  padding: 4% 0.6vw 4% 7.6vw;
+  text-align: left;
+}
+@media (max-width: 740px) {
+  .startTodayBody {
+    padding: 4% 0;
+    text-align: center;
+  }
+}
+.startTodayBody h3 {
+  margin-top: 6%;
+  font-size: 2.8rem;
+}
+.startTodayBody p {
+  color: #595f6f;
+}
+.startTodayBody p:nth-of-type(1) {
+  font-size: 1.8rem;
+}
+.startTodayBody p:nth-of-type(2),
+.startTodayBody p:nth-of-type(3) {
+  font-size: 1.6rem;
+}
+.startTodayContent {
+  margin-left: 0.3vw;
+}
+/* why use our services section */
+.serviceSection {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 0%;
+  background-color: #f6fbff;
+}
+/* why us cards */
+.cardsContainer {
+  background-color: #f6fbff;
+  padding: 0 7.6vw;
+  padding-bottom: 9%;
+}
+.card {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #595f6f;
+  padding-left: 3vw;
+  padding-top: 0%;
+  margin-bottom: 0%;
+}
+@media (max-width: 740px) {
+  .card {
+    display: block;
+    text-align: center;
+    padding-top: 13%;
+    margin-bottom: 9%;
+  }
+}
+.card img {
+  transform: translate(0px, -64%);
+}
+.cardBody {
+  padding: 11% 2vw;
+}
+.firstCard {
+  padding: 17% 2vw;
+}
+@media (max-width: 740px) {
+  .cardBody {
+    padding: 0% 11vw 6%;
+  }
+}
+.middleCard {
+  padding: 14.3% 2vw;
+}
+@media (max-width: 740px) {
+  .middleCard {
+    padding: 2.3% 2vw;
+  }
+}
+.card h5 {
+  margin-bottom: 13%;
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+@media (max-width: 740px) {
+  .card h5 {
+    margin-bottom: 1%;
+  }
+}
+.card p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+/* tips section  */
+.tips {
+  padding: 2% 7.6vw 8%;
+  font-size: 1.8rem;
+}
+.tips li {
+  color: #ec1c24;
+}
+.tips li span {
+  color: #595f6f;
+}
+/* Required Documentation Section */
+.docsSection {
+  margin-top: 3%;
+  padding-left: 7.6vw;
+  padding-right: 7.6vw;
+  padding-bottom: 3%;
+}
+.docsSection h3 {
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+.docsSection h6 {
+  color: #595f6f;
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+.docsSection p {
+  font-size: 1.3rem;
+  color: #595f6f;
+  font-weight: lighter;
+}

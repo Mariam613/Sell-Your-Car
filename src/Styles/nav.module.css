@@ -1,0 +1,17 @@
+.navContainer {
+  padding: 0 7.6vw;
+}
+.btnRounded {
+  background-color: #ec1c24;
+  border-color: #ec1c24;
+  padding: 5% 2vw;
+  font-size: 1.6rem;
+  font-family: Almarai-Bold;
+}
+.btnRounded:hover {
+  background-color: #ec1c24;
+  border-color: #ec1c24;
+}
+.logo {
+  margin: 3% 0;
+}

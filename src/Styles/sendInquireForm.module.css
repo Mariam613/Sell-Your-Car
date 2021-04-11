@@ -1,0 +1,55 @@
+.formContainer {
+  padding: 5% 7vw;
+}
+@media (max-width: 740px) {
+  .formContainer {
+    padding: 5% 18vw;
+  }
+}
+.formContent {
+  margin-left: 1vw;
+  margin-top: 5%;
+}
+.formContainer p {
+  background-color: #ec1c24;
+  width: 100%;
+}
+.formContainer h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.formContainer h2:nth-of-type(1) {
+  margin-bottom: 1%;
+}
+.formContainer select {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.formContainer select:focus {
+  border: 1px solid #ced4da;
+}
+.formContainer Button {
+  padding: 2% 2vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: 13%;
+  margin-bottom: 13%;
+  transform: translate(0vw, 0px);
+}
+@media (max-width: 740px) {
+  .formContainer Button {
+    transform: translate(18vw, 0px);
+  }
+}
+.formContainer Button i {
+  font-size: small;
+}
